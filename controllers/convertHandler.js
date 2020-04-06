@@ -121,7 +121,7 @@ function ConvertHandler() {
         result = initNum * miToKm;
         break;
       case "km":
-        result = initNum * miToKm;
+        result = initNum / miToKm;
         break;
     }
 
